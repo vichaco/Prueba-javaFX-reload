@@ -41,11 +41,11 @@ public class OneController {
         try {
             // Load the fxml file and create a new stage for the popup.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("view/OtherStage.fxml"));
+            loader.setLocation(Main.class.getResource("view/MyView2.fxml"));
             AnchorPane page = (AnchorPane) loader.load();
             Stage sendStage = new Stage();
             sendStage.getIcons().add(new Image("file:view/wifi.jpg"));
-            sendStage.setTitle("OtherStage");
+            sendStage.setTitle("MyView2");
             Scene scene = new Scene(page);
             sendStage.setScene(scene);
 

@@ -1,0 +1,13 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.fondo{
+	-fx-background-color: #008080;
+	-fx-border-color: blue;
+	-fx-text-fill: white;
+}
+
+.mytitle{
+    -fx-font-family: "Shadows Into Light";
+}
+.titulo{
+	-fx-text-fill: black;
+}
